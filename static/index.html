@@ -6,6 +6,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<!-- this is a comment in HTML -->
+	<link href="css/introHCI.css" rel="stylesheet">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -14,67 +15,69 @@
     <![endif]-->
 </head>
 
-<body>
+<body style="background-color:black;">
 	<div>
 		<!-- h1 through h6 are headers. The higher the number, the smaller the header -->
 		<!-- p means paragraph -->
 		<div>
-			<h1>Calvin Tam</h1>
-			<p>data science &middot; genius &middot; god-like talent</p>
+			<h1 style="color:white;">Calvin Tam</h1>
+			<p style="color:white;">data science &middot; genius &middot; god-like talent</p>
 		</div>
 
 
-		<h4>Projects</h4>
+		<h2 style="color:white;">Projects --- mainly from my data visualization course : - )</h2>
 		<!-- divs are invisible structuring elements that stack vertically by default. Use them to organize your code -->
 		<!-- img tags are images. Lorem Pixel will deliver random images; handy! -->
 		<!-- a are anchors, also known as hyperlinks. Use the href attribute to tell the browser where to go when the user clicks -->
 		<div id="project1">
-			<a href="project1.html">
-				<img src="images/lorempixel.people.1.jpeg" alt="Lorem Pixel image">
-				<p>DSC 102 - Data Visualization Project</p>
+			<h3 style="color:lightskyblue;">Robert Downey Jr. Project : - )</h3>
+			<a href="project1.html" style="visited-color:green;}">
+				<img src="https://i.pinimg.com/originals/3a/58/61/3a5861c95871f4063a7f57a2ed97988a.jpg" alt="Lorem Pixel image">
+				</br>
+				DSC 102 - Data Visualization Project 1
 			</a>
+			<h4>Description:</h4>
+			<p>Here I basically did a fun project about Robert Downey Jr. and his work as an actor. </br>
+				It pretty much has three main visualizations. The first is a choropleth map of where </br>
+				his movies were produced. The second is a circle packing graph where the size of the </br>
+				categories is related to the movies/genres revenue size. The third is a word cloud </br>
+				of some common words showing up in quick movie descriptions of the movie. </br>
+				Note that there is some angst in the website because I was quite upset with the </br>
+				unprofessionalism of the professor and the TAs in how they handled the course.
+			</p>
 		</div>
 		<div id="project2">
+			<h3 style="color:lightpink;">Homer Simpson Project : - )</h3>
 			<a href="project2.html">
-				<img src="images/lorempixel.city.1.jpeg" alt="Lorem Pixel image">
-				<p>DSC 102 - Data Visualization Final</p>
+				<img src="https://media0.giphy.com/media/l2JdXPtBdHru1OC1G/giphy.gif" alt="Lorem Pixel image">
+				</br>
+				DSC 102 - Data Visualization Project 2
 			</a>
+			</br>
+			<h4>Description:</h4>
+			<p>This was just a project where, given some pretty trash 30-second screencast of a sample </br>
+				visualization, create your own version of it through Javascript and Highcharts. Terrible</br>
+				project assignment in which we basically had to learn Highcharts and JS in one week ...</br>
+				Mainly revolved around the theme of Homer Simpson's job and a possible energy visualization </br>
+				that could be found at his job. </br>
+				Pretty proud though based on how much it is capable of doing and how interactive it is.</br>
+				***NOTE*** You have to zoom out in the project to get the whole scope of it</br>
+				I could have fixed this issue with more HTML/CSS tricks, but it was 3am and I did some hardcoding</br>
+				Fight me.</p>
 		</div>
 		<div id="project3">
-			<a href="project.html">
-				<img src="images/lorempixel.technics.1.jpeg" alt="Lorem Pixel image">
-				<p>Prototyping</p>
+			<a href="project3.html">
+				<img src="https://www.google.com/logos/doodles/2016/googles-18th-birthday-5661535679545344-hp2x.gif" alt="Lorem Pixel image">
+				</br>
+				DSC 102 - Data Visualization Final
 			</a>
-		</div>
-		<div id="project4">
-			<a href="project.html">
-				<img src="images/lorempixel.abstract.1.jpeg" alt="Lorem Pixel image">
-				<p>Heuristic Evaluation</p>
-			</a>
-		</div>
-		<div id="project5">
-			<a href="project.html">
-				<img src="images/lorempixel.abstract.8.jpeg" alt="Lorem Pixel image">
-				<p>Visualization</p>
-			</a>
-		</div>
-		<div id="project6">
-			<a href="project.html">
-				<img src="images/lorempixel.people.2.jpeg" alt="Lorem Pixel image">
-				<p>Social design</p>
-			</a>
-		</div>
-		<div id="project7">
-			<a href="project.html">
-				<img src="images/lorempixel.technics.2.jpeg" alt="Lorem Pixel image">
-				<p>Gestural interaction</p>
-			</a>
-		</div>
-		<div id="project8">
-			<a href="project.html">
-				<img src="images/lorempixel.city.2.jpeg" alt="Lorem Pixel image">
-				<p>Design tools</p>
-			</a>
+			</br>
+			<h4>Description:</h4>
+			<p>Ooof now this was my fun little final project for this course. This consisted of three</br>
+				visualizations about some data that Google has on me. There's a heatmap of my location history</br>
+				that I did not make readily available because it is some pretty personal data. There's also </br>
+				a tool to see and trace my daily location history for about ten days out of last quarter. </br>
+				The last is a word map of my search histories from five different dates up to sometime last quarter.</p>
 		</div>
 	</div>
 </body>

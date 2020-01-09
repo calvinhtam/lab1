@@ -32,3 +32,20 @@ body {
      position: absolute;
      z-index: -1;
 }
+
+a:link {
+    color: deepskyblue;
+}
+
+/* visited link */
+a:visited {
+    color: green;
+}
+
+h4 {
+    color: white;
+}
+
+p {
+    color: white;
+}
